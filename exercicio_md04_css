@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#tecnology" title="Ir para a seção de tecnologias">Tecnologia</a>
+                    </li>
+                    <li>
+                        <a href="#entreteniment" title="Ir para a seção de Entretenimento">Entretenimento</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                    <article>
+                        <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                        <header>
+                            <time class="creation-date">13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Grande clássico na noite de hoje</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Noite do Superbowl</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Notícia sobre a NBA</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                    <article>
+                        <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Dólar em alta de 0.50%</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Euro em queda de 0.40%</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+                    <article>
+                        <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                        <header>
+                            <time>13/07/2022 às 12:35</time>
+                        </header>
+                        <h3>Alta no preço do barril do petróleo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Ler mais</a>
+                    </article>
+            </div>
+        </div>
+    </section>
+    <section id="tecnology">
+        <div class="container">
+            <h2>Tecnologia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/tecnologia.jpg" alt="Mundo da Tecnologia"/>
+                    <header>
+                        <time>11/03/2023 às 14:03</time>
+                    </header>
+                    <h3>Novos lançamentos de smartphones</h3>
+                    <p>Celulares dobráveis devem despontar no mercado em diferentes fabricantes. Motorola, Samsung, Oppo e Google estão cotadas para anunciar modelos do gênero neste ano.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/tecnologia1.jpg" alt="Softwares Médicos"/>
+                    <header>
+                        <time>11/03/2023 às 15:30</time>
+                    </header>
+                    <h3>GUMMER! Novo software de escaneamento corporal</h3>
+                    <p>
+                        O scanner para Parceiros da Área da Saúde é um excelente dispositivo para a área de saúde e aplicações que envolvam a medição 3D do corpo. O scanner para Parceiros da Área da Saúde oferece grande rapidez na aquisição de formas e recursos de alta precisão. O equipamento gera dados 3D que podem ser usados para produzir dispositivos personalizados e confortáveis.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/tecnologia2.jpg" alt="Processadores"/>
+                    <header>
+                        <time>27/03/2023 às 20:35</time>
+                    </header>
+                    <h3>Novo processador chegando ao mercado</h3>
+                    <p>
+                        Processadores Intel Core 13ª geração chegam dia 20 de outubro - Veja preços no Brasil. A Intel anunciou oficialmente, nesta terça-feira (27), os novos processadores da 13ª geração Intel Core, codinome Raptor Lake.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>  
+            </div>
+        </div>
+    </section>
+    <section id="entreteniment">
+        <div class="container">
+            <h2>Entretenimento</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/pqdiversoes1.jpg" alt="Parque diversões"/>
+                    <header>
+                        <time>05/04/2023 às 10:15</time>
+                        <h3>Novo parque de diversões</h3>
+                    </header>
+                    <p>
+                        O ParkShopingBarigüi inaugura neste fim de semana o PKB Fun Park, o mais novo parque de diversões da cidade. Até o dia 28 de outubro, Curitiba poderá viver experiências incríveis na “Intergaláctica”, um das maiores rodas-gigantes itinerantes da América Latina, e no “El Loco”, o chapéu mexicano mais divertido do Brasil.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Leia mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/kart.png" alt="Novo Kartódromo em Curitiba"/>
+                    <header>
+                        <time>15/04/2023 às 16:35</time>
+                        <h3>Novo Kartódromo chega a capital paranaense</h3>
+                        <p>
+                            Curitiba é conhecida por possuir inúmeros parques, programas gastronômicos e culturais. Mas quando é relacionada com entretenimento esportivo, são lembrados os times de futebol, campos de Airsoft e Paintball, entre outros. Mas um ramo em especial vem crescendo na capital curitibana: as pistas de kart.
+                        </p>
+                        <a href="#" title="Leia a notícia completa">Leia mais</a>
+                    </header>
+                </article>
+                <article>
+                    <img src="./imagens/boliche.jpeg" alt="Boliche"/>
+                    <header>
+                        <time>29/04/2023 às 09:45</time>
+                    </header>
+                    <h3>Boliche encantador!</h3>
+                    <p>
+                        Está com vontade de reunir os amigos ou a família para uma disputa no boliche? Nosso guia encontrou três lugares em Curitiba para você jogar. Em todos eles não há a possibilidade de reserva, ou seja, a vez na pista é por ordem de chegada. Por isso, é melhor chegar cedo. O maior movimento é sempre no período da noite nos fins de semana.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Leia mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
